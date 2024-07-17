@@ -128,7 +128,7 @@ body {
 }
 
 .pizza img {
-  width: 12rem;
+  width: 20rem;
   aspect-ratio: 1;
   transition: transform 0.3s;
   border-radius: 5px;
@@ -179,6 +179,7 @@ body {
   position: relative;
   bottom: 0;
   width: 100%;
+  border-radius: 4px;
 }
 
 .footer .social-links {
@@ -222,7 +223,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Styles */
 @media (max-width: 1024px) {
   .pizzas {
     grid-template-columns: repeat(2, 1fr);
